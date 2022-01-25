@@ -109,7 +109,6 @@ function greeting( obj ) {
 }
 
 
-
 //////////////////////////// PROBLEM 8 ////////////////////////////
 
 /*
@@ -273,9 +272,9 @@ class Phone{
 */
 
 //Code Here
-let android = new Phone('Samsung', 'Galaxy', '32 Gb', 'Black', 800, false)
-let apple = new Phone('Apple', 'iPhone', '32 Gb', 'Gold', 1000, false)
-let pixel = new Phone('Google', 'Pixel', '32 Gb', 'White', 600, false)
+let android = new Phone('Samsung', 'Galaxy', 64, 'Black', 800, false)
+let apple = new Phone('Apple', 'iPhone', 32, 'Gold', 1000, false)
+let pixel = new Phone('Google', 'Pixel', 128, 'White', 600, false)
 /* 
   Call the changePrice function on one of your phones, 
   don't forget to pass in a new price 
@@ -452,7 +451,7 @@ class Boat extends Vehicle {
 */
 
 //Code Here
-let pearl = new Boat(6, 'white', 450, 'pearl', 'Boat', true)
+let pearl = new Boat(6, 'white', 450, 'pearl', 'Boat', false)
 /*
   Call the checkSeaworthiness method on your new boat
 */
